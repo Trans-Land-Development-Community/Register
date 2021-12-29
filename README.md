@@ -1,5 +1,4 @@
 # 加入MtF Wiki Development Community（MWDC）！
-# Join MtF Wiki Development Community（MWDC）！
 
 ## 什么是MWDC？
 
@@ -22,6 +21,8 @@ MWDC采用完全自由的权限管理体系，各项目的主要开发者持有�
 组织内的和谐与有序完全依赖成员的自觉性和责任意识，以最大限度保留社区自由。
 
 至于经济方面，是完全用爱发电的哦~！但是我们也接受捐赠，所有捐赠款用于维护社区、MtF Wiki的运行或者处理跨性别紧急求助。
+
+# Join MtF Wiki Development Community（MWDC）！
 
 ## What is MWDC?
 

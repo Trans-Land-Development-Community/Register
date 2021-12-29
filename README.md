@@ -1,2 +1,2 @@
-# Register
-Join the MtF Wiki Development Community!
+# 加入MtF Wiki Development Community！
+

@@ -69,4 +69,4 @@ body:
           - label: I promise to obey the community ethics and be willing to bear all consequences if I violated it.
             required: true
     - type: markdown
-        value: "## Finally,thanks for applying to join MWDC!"
+      value: "## Finally,thanks for applying to join MWDC!"

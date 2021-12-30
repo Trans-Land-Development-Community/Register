@@ -69,4 +69,6 @@ body:
           - label: 我承诺自觉遵守社区道德规范，若违反，愿意承担一切后果。
             required: true
     - type: markdown
-      value: "## 最后，感谢你申请加入MWDC！"
+      attributes:
+        value: |
+          "## 最后，感谢你申请加入MWDC！"

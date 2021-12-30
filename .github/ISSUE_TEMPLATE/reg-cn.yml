@@ -34,6 +34,7 @@ body:
       attributes:
         label: 你希望在MWDC中执行的工作
         description: 请选择你有能力在MWDC中执行的工作（注意，由于社区的自由性，非开发工作有一定的可能会被拒绝）
+        multiple: true
         options:
           - 开发、程序设计、后端
           - 美工
@@ -71,4 +72,4 @@ body:
     - type: markdown
       attributes:
         value: |
-          "## 最后，感谢你申请加入MWDC！"
+          ## 最后，感谢你申请加入MWDC！

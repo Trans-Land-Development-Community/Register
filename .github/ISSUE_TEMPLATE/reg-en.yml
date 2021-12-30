@@ -34,6 +34,7 @@ body:
       attributes:
         label: The job you would like to do
         description: Please choose the job within your ability.（Be aware that due to the freedom of the community, non-development jobs may have a possibility to be rejected.）
+        multiple: true
         options:
           - Development, Program designer, Backend developments
           - Artistic work
@@ -71,4 +72,4 @@ body:
     - type: markdown
       attributes:
         value: |
-          "## Finally,thanks for applying to join MWDC!"
+          ## Finally,thanks for applying to join MWDC!

@@ -1,7 +1,7 @@
 name: Application
 description: Apply to join MWDC!
 title: "Apply to join MWDC"
-labels: ["application"]
+labels: Application
 assignees:
     - Rinfair-CSP-A016
 body:

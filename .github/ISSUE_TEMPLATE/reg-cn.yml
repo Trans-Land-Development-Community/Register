@@ -1,7 +1,7 @@
 name: 申请
 description: 申请加入MWDC！
 title: "申请加入MWDC"
-labels:["application"]
+labels: ["application"]
 assignees:
     - Rinfair-CSP-A016
 body:

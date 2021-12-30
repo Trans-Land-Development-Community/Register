@@ -1,0 +1,72 @@
+name: Application
+description: Apply to join MWDC!
+title: "Apply to join MWDC"
+labels:["application"]
+assignees:
+    - Rinfair-CSP-A016
+body:
+    - type: input
+      id: name
+      attributes:
+        label: Your nickname
+        description: What may we call you?
+      validations:
+        required: true
+    - type: dropdown
+      id: identity
+      attributes:
+        label: Your identity
+        description: Please choose your identity in the dropdown box.
+        options:
+          - Transgender
+          - Transgender-friendly person
+      validations:
+        required: true
+    - type: textarea
+      id: origin
+      attributes:
+        label: The origin of our information
+        description: Where and how did you get our information?
+      validations:
+        required: true
+    - type: dropdown
+      id: work
+      attributes:
+        label: The job you would like to do
+        description: Please choose the job within your ability.（Be aware that due to the freedom of the community, non-development jobs may have a possibility to be rejected.）
+        options:
+          - Development, Program designer, Backend developments
+          - Artistic work
+          - Storyline designer
+          - Frontend developments
+          - Engine developments
+          - Reviewer
+          - Executive personnel
+          - Project testing personnel
+          - Others(please tell us as the additional information)
+      validations:
+        required: true
+    - type: textarea
+      id: contact
+      attributes:
+        label: Contact information
+        description: How can we get to you/hear from you？（Eg. QQ：XXXXXXXX）
+      validations:
+        required: true
+    - type: textarea
+      id: addition
+      attributes: 
+        label: Addtional information
+        description: What else do you want to tell us in the application?
+      validations:
+        required: true
+    - type: checkboxes
+      id: promise
+      attributes:
+        label: Consciously obey the community ethics
+        description: MWDC uses a completely-free administration system, please obey the ethics and do nothing to destroy the harmony and order in the community.
+        options:
+          - label: I promise to obey the community ethics and be willing to bear all consequences if I violated it.
+            required: true
+    - type: markdown
+        value: "## Finally,thanks for applying to join MWDC!"

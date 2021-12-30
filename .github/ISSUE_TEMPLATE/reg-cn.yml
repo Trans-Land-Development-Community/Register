@@ -1,0 +1,72 @@
+name: 申请
+description: 申请加入MWDC！
+title: "申请加入MWDC"
+labels:["application"]
+assignees:
+    - Rinfair-CSP-A016
+body:
+    - type: input
+      id: name
+      attributes:
+        label: 你的昵称
+        description: 我们该如何称呼你？
+      validations:
+        required: true
+    - type: dropdown
+      id: identity
+      attributes:
+        label: 你的身份
+        description: 请在下拉框内选择你的身份。
+        options:
+          - 跨性别（不限于MtF）
+          - 友跨人士（但并不是跨性别）
+      validations:
+        required: true
+    - type: textarea
+      id: origin
+      attributes:
+        label: 你的信息来源
+        description: 你是从哪里如何知道我们的呢？
+      validations:
+        required: true
+    - type: dropdown
+      id: work
+      attributes:
+        label: 你希望在MWDC中执行的工作
+        description: 请选择你有能力在MWDC中执行的工作（注意，由于社区的自由性，非开发工作有一定的可能会被拒绝）
+        options:
+          - 开发、程序设计、后端
+          - 美工
+          - 策划、文案
+          - 前端
+          - 引擎开发
+          - 审查人员
+          - 行政执行人员
+          - 项目测试人员
+          - 其它（在备注内说明）
+      validations:
+        required: true
+    - type: textarea
+      id: contact
+      attributes:
+        label: 联系方式
+        description: 我们应该如何联系到你？（例如：QQ：XXXXXXXX）
+      validations:
+        required: true
+    - type: textarea
+      id: addition
+      attributes: 
+        label: 备注
+        description: 还有什么想要在申请中提及的信息吗？
+      validations:
+        required: true
+    - type: checkboxes
+      id: promise
+      attributes:
+        label: 自觉遵守社区道德规范
+        description: MWDC采用完全自由的管理体系，请自觉遵守道德规范，不做破坏社区开发组和谐与秩序的事情。
+        options:
+          - label: 我承诺自觉遵守社区道德规范，若违反，愿意承担一切后果。
+            required: true
+    - type: markdown
+        value: "## 最后，感谢你申请加入MWDC！"

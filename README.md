@@ -42,6 +42,6 @@ MWDC uses a completely-free permission management system. The main developers of
 
 The others who are involved in other tasks have the Member permission by default.
 
-The harmony and order within the community completely depends on the intelligence and sense of responsibility of the members in order to preserver the freedom to the maximum extent.
+The harmony and order within the community completely depends on the intelligence and sense of responsibility of the members in order to preserve the freedom to the maximum extent.
 
 As for the economy, all works are VOLUNTARY and have NO PAYBACK. All donations are used to maintain the community and wiki or to deal with transgender emergency help requests.
